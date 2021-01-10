@@ -28,7 +28,7 @@ int main()
 		{
 			if (error == boost::asio::error::eof)
 			{
-				cout << "클라이언트와 연결이 끊어졌습니다." << endl;
+				cout << "클라이언트와 연결이 끊어졌습니다." << endl; // 클라이언트가 접속 종료 시에도 처리
 			}
 			else
 			{
