@@ -12,7 +12,7 @@ int main()
 	boost::asio::ip::tcp::endpoint endpoint(boost::asio::ip::tcp::v4(), PORT_NUMBER); // 네트워크 주소 설정
 	boost::asio::ip::tcp::acceptor acceptor(io_service, endpoint); // 클라이언트의 접속을 담당
 
-	boost::asio::ip::tcp::socket socket(io_service); // 접속한 클라이언트의 
+	boost::asio::ip::tcp::socket socket(io_service); // 접속한 클라이언트의 d
 	acceptor.accept(socket);
 	cout << "클라이언트 접속" << endl;
 	
